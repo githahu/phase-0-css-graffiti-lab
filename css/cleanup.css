@@ -1,1 +1,18 @@
-/* write your override styles here */
+#wall .tag-1 {
+    display: inline-block;
+    padding-left: 30%;
+    background-color: blueviolet;
+}/* write your override styles here */
+#wall.tag-2 {
+    font-display:unset;
+    padding-right: 30px;
+    background-image: -moz-linear-gradient(8);
+    background-position: 70%;
+    background-color: bisque;
+}
+#wall.tag-3{
+    image-resolution: none;
+    isolation: auto;
+    image-orientation: flip;
+    padding-inline-start: 10px;
+}
